@@ -3,6 +3,8 @@
   border: 1px solid #CAD0D2;
   border-radius: 4px;
   overflow: hidden;
+  display: flex;
+
 }
 
 .card {
@@ -13,11 +15,49 @@
   border-radius: 0;
   border-left: 1px solid #D7DBDD;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  flex-grow: 1;
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
 }
 
 .cardDescription {
   /* display, flex-direction, align-items, flex-grow */
   padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  
+  
+
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
 }
 
 html {
@@ -31,7 +71,10 @@ html {
 .cardDescriptionIcon {
   font-size: 32px;
   margin-bottom: 10px;
-  color: #BCD2DA;
+  color: #BCD2DA;;
+  
+  
+
 }
 
 .cardDescriptionText {
@@ -49,4 +92,5 @@ html {
   padding: 5px 15px;
   border-top: 1px solid #D7DBDD;
   background-color: #EEF3F5;
+  
 }
